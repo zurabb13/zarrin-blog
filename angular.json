@@ -20,6 +20,11 @@
             "outputPath": "dist/blog",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "stylePreprocessorOptions":{
+               "includePaths": [
+              "public/scss"
+            ]
+            },
             "polyfills": [
               "zone.js"
             ],
