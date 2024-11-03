@@ -1,1 +1,28 @@
-<p>header works!</p>
+<header>
+    <nav class="w-full flex items-center justify-between py-4 px-6 bg-white shadow-md px-10">
+        <!-- Left Section: Logo -->
+        <div class="flex items-center space-x-2">
+            <img src="logo.svg" alt="Zarron Logo" class="w-8 h-8">
+            <span class="text-lg font-semibold text-gray-800">Zarron</span>
+        </div>
+
+        <!-- Right Section: Navigation Links -->
+        <div class="hidden md:flex items-center space-x-6">
+            <a href="#" class="text-gray-700 hover:text-gray-900">Blog</a>
+            <a href="#" class="text-gray-700 hover:text-gray-900">About</a>
+            <span class="pi pi-search text-gray-700 hover:text-gray-900 cursor-pointer"></span>
+            <button class="px-4 py-2 bg-purple-700 text-white rounded-md hover:bg-purple-800">Connect Us</button>
+        </div>
+
+        <!-- Mobile Menu Icon -->
+        <div class="md:hidden flex items-center">
+            <button class="text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+</header>
